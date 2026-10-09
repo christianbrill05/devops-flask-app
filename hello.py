@@ -1,3 +1,3 @@
 <<<<<<< HEAD
-from flask import Flaskapp = Flask(__name__)@app.route('/')def say_hello():	return '<p>Welcome! I am a Flask app!</p><p><a href="/about">About</a>  |  <a href="/contact">Contact</a></p>'@app.route('/about')def about():	return '</p>This is a flask app built for the DevOps lab.</p><p><a href="/">Home</a></p>'@app.route('/contact')def contact():	return '<p>Contact me at: christianbrill2005@gmail.com</p><p><a href="/">Home</a></p>'	
+from flask import Flaskapp = Flask(__name__)@app.route('/')def say_hello():	return '<p>Welcome! I am a Flask app!</p><p><a href="/about">About</a> and <a href="https://www.python.org">Python<a/>  |  <a href="/contact">Contact</a></p>'@app.route('/about')def about():	return '</p>This is a flask app built for the DevOps lab.</p><p><a href="/">Home</a></p>'@app.route('/contact')def contact():	return '<p>Contact me at: christianbrill2005@gmail.com</p><p><a href="/">Home</a></p>'	
 >>>>>>> new_greeting
